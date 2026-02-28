@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oCave",
+  "%Name":"oSolid",
   "eventList":[],
   "managed":true,
-  "name":"oCave",
+  "name":"oSolid",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"oSolid",
-    "path":"objects/oSolid/oSolid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sCave",
-    "path":"sprites/sCave/sCave.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

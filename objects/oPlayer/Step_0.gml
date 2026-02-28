@@ -9,3 +9,11 @@ if keyboard_check(vk_right) {
 
 x += x_speed;
 y += y_speed;
+
+if (place_meeting(x, y + 1, oSolid)) {
+	if (keyboard_check_pressed(vk_up)) {
+		y_speed = -10;
+	} else {
+		y_speed = 0;
+	}
+}
