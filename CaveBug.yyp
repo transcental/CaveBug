@@ -22,6 +22,7 @@
   },
   "name":"CaveBug",
   "resources":[
+    {"id":{"name":"oCave","path":"objects/oCave/oCave.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sCave","path":"sprites/sCave/sCave.yy",},},
