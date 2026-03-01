@@ -18,7 +18,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.1400.4.1003",
   },
   "name":"CaveBug",
   "resources":[
@@ -28,6 +28,14 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sCave","path":"sprites/sCave/sCave.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"wall1","path":"sprites/wall1/wall1.yy",},},
+    {"id":{"name":"wall2","path":"sprites/wall2/wall2.yy",},},
+    {"id":{"name":"wall3","path":"sprites/wall3/wall3.yy",},},
+    {"id":{"name":"wall4","path":"sprites/wall4/wall4.yy",},},
+    {"id":{"name":"wallend1","path":"sprites/wallend1/wallend1.yy",},},
+    {"id":{"name":"wallend2","path":"sprites/wallend2/wallend2.yy",},},
+    {"id":{"name":"wallend3","path":"sprites/wallend3/wallend3.yy",},},
+    {"id":{"name":"wallend4","path":"sprites/wallend4/wallend4.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
