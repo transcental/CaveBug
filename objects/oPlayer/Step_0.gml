@@ -11,7 +11,7 @@ move_and_collide(x_speed, y_speed, oSolid);
 
 if (place_meeting(x, y + 1, oSolid)) {
 	if (keyboard_check_pressed(vk_up)) {
-		y_speed = -4;
+		y_speed = -2.5;
 	} else {
 		y_speed = 0;
 	}
