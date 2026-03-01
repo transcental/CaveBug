@@ -3,10 +3,10 @@ y_speed += grav;
 
 if keyboard_check(vk_right) {
 	x_speed = movement_speed;
-	image_xscale = -1;
+	image_xscale = 1;
 } else if keyboard_check(vk_left) {
 	x_speed = - movement_speed;
-	image_xscale = 1;
+	image_xscale = -1;
 }
 
 move_and_collide(x_speed, y_speed, oSolid);
