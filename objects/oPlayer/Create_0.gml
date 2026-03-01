@@ -7,4 +7,5 @@ grav = 0.1;
 
 animation_block = false;
 next_animation = ""
-jump_animating = false;;
+jump_animating = false;
+global.score = 0;
