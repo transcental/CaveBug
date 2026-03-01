@@ -7,12 +7,11 @@ if keyboard_check(vk_right) {
 	x_speed = - movement_speed;
 }
 
-x += x_speed;
-y += y_speed;
+move_and_collide(x_speed, y_speed, oSolid);
 
 if (place_meeting(x, y + 1, oSolid)) {
 	if (keyboard_check_pressed(vk_up)) {
-		y_speed = -10;
+		y_speed = -4;
 	} else {
 		y_speed = 0;
 	}
