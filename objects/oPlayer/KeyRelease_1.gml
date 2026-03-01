@@ -1,3 +1,9 @@
 if (!keyboard_check(vk_right) && !keyboard_check(vk_left))  {
-	sprite_index = sPlayerWalkEnd
+	if(!animation_block) {
+		sprite_index = sPlayerWalkEnd
+		image_index = 0;
+		image_speed = 10;
+	} else {
+		next_animation = sPlayerWalkEnd;
+	}
 }
