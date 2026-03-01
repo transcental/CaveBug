@@ -28,6 +28,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"oWallCorner","path":"objects/oWallCorner/oWallCorner.yy",},},
     {"id":{"name":"oWallInside","path":"objects/oWallInside/oWallInside.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
