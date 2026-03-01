@@ -19,7 +19,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.1400.4.1003",
   },
   "name":"CaveBug",
   "resources":[
@@ -38,6 +38,7 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},},
+    {"id":{"name":"sPlayerJumpEnd","path":"sprites/sPlayerJumpEnd/sPlayerJumpEnd.yy",},},
     {"id":{"name":"sPlayerWalkEnd","path":"sprites/sPlayerWalkEnd/sPlayerWalkEnd.yy",},},
     {"id":{"name":"sPlayerWalkStart","path":"sprites/sPlayerWalkStart/sPlayerWalkStart.yy",},},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},

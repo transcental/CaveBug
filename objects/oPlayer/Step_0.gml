@@ -16,18 +16,26 @@ if (y > room_height or y < 0 or x > room_width or x < 0) {
 }
 
 if (place_meeting(x, y + 1, oSolid)) {
-	if(!jump_animating) {
-		jump_animating = true;
-		sprite_index = sPlayerJump;
-		image_index = 0;
-		image_speed = 10;
-	}
-	animation_block = true;
+	falling = false;
 	if (keyboard_check_pressed(vk_up)) {
 		y_speed = -2.5;
 	} else {
 		y_speed = 0;
 	}
+	if(jump_animating == true) {
+	  animation_block = true;
+	  sprite_index = sPlayerJumpEnd;
+	  image_index = 0;
+	  image_speed = 10;
+	}
+	 jump_animating = false;
 } else {
-
+	falling = true;
+	if(!jump_animating && !animation_block) {
+		jump_animating = true;
+		animation_block = true;
+		sprite_index = sPlayerJump;
+		image_index = 0;
+		image_speed = 10;
+	}
 }

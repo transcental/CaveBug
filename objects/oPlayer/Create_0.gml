@@ -8,4 +8,6 @@ grav = 0.1;
 animation_block = false;
 next_animation = ""
 jump_animating = false;
+falling = false;
+
 global.score = 0;
